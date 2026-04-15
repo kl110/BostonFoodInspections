@@ -130,11 +130,24 @@ model_nb_interaction <- glmmTMB(
 
 summary(model_nb_main)
 summary(model_nb_interaction)
+model_performance(model_nb_interaction)
 anova(model_nb_main, model_nb_interaction)
 # Interaction model represents data better
 # Statistically significant
 
+# Finding results
+# Extract coefficients
+coef_summary <- summary(model_nb_interaction)$coefficients$cond
 
+# Create interpretation table
+interpret_df <- data.frame(
+  Estimate = coef_summary[, "Estimate"],
+  IRR = exp(coef_summary[, "Estimate"]),
+  Percent_Change = (exp(coef_summary[, "Estimate"]) - 1) * 100,
+  P_Value = coef_summary[, "Pr(>|z|)"]
+)
+
+print(round(interpret_df, 4))
 
 
 ##################
