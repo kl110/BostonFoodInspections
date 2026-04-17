@@ -1,6 +1,6 @@
 # Chain and Independent Food Service Business Performance According to Income and Neighborhood in Boston
 ## Author: Kamila Lim
-### Institution: Wellesely College
+### Institution: Wellesley College
 ### Project for Data Science Capstone Class Spring 2026
 
 ### Project
