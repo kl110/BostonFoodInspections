@@ -2,3 +2,5 @@
 .ipynb_checkpoints/
 anaconda_projects/
 Boston_inspection.csv
+.RData
+.Rhistory
