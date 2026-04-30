@@ -1,7 +1,7 @@
 # Chain and Independent Food Service Business Performance According to Income and Neighborhood in Boston
 ## Author: Kamila Lim
 ### Institution: Wellesley College
-### Project for Data Science Capstone Class Spring 2026
+### Project for Data Science Capstone Spring 2026
 
 ### Project
 Boston Food Inspections dataset used to investigate whether there is a 
@@ -9,6 +9,7 @@ relationship between food inspection violations and income and whether or not th
 potential implications for food safety in national chains, where practices and level of service should be standardized.
 ACS income data from 2024 and census tract boundaries from 2023 are used with Food Inspection data from 2026. Boston Food
 Inspections data is too large (over 300MB) and is instead linked [here](https://data.boston.gov/dataset/food-establishment-inspections).
+Food Inspections data was downloaded on February 11th, 2026.
 
 ### Repository Structure
 - Census shape files: tl_2023_25_tract. Shape file (tl_2023_25_tract.shp) used in python file.
