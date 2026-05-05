@@ -107,6 +107,7 @@ check_overdispersion(model_poisson_main)
 # Ignoring spatial correlation
 
 ####### MODEL 3: Negative Binomial Model ##############
+# Mixed effects negative binomial interaction and non-interaction
 library(glmmTMB)
 
 model_nb_main <- glmmTMB(
@@ -152,6 +153,7 @@ print(round(interpret_df, 4))
 
 ##################
 ############################################# PLOTS TO VISUALIZE THE MODEL PREDICTIONS
+# Not used in project
 # ============================================================
 # LOAD VISUALIZATION LIBRARIES
 # ============================================================

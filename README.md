@@ -9,14 +9,15 @@ relationship between food inspection violations and income and whether or not th
 potential implications for food safety in national chains, where practices and level of service should be standardized.
 ACS income data from 2024 and census tract boundaries from 2023 are used with Food Inspection data from 2026. Boston Food
 Inspections data is too large (over 300MB) and is instead linked [here](https://data.boston.gov/dataset/food-establishment-inspections).
-Food Inspections data was downloaded on February 11th, 2026.
+Food Inspections data used in this analysis was downloaded on February 11th, 2026.
 
 ### Repository Structure
-- Census shape files: tl_2023_25_tract. Shape file (tl_2023_25_tract.shp) used in python file.
-- ACS income data: ACSST5Y2024. Income csv (ACSST5Y2024.S1901-Data.csv) used in python file.
-- Poster used for research findings: LimK.PosterV1.pdf
-- Modelling and analyses: LimK.Project.R
-- Data cleaning and visualization: LimK.Project.ipynb
+- Census shape files: tl_2023_25_tract. Shape file (tl_2023_25_tract.shp) used in python file and contains spatial data.
+- ACS income data: ACSST5Y2024. Income csv (ACSST5Y2024.S1901-Data.csv) used in python file and contains socioeconomic data.
+- Poster used for research findings (LimK.PosterFINAL.pdf): Contains project results
+- Modelling and analyses (LimK.Project.R): Statistical modelling script
+- Data cleaning and visualization (LimK.Project.ipynb): Primary data preprocessing and visualization script
+- 
 
 ### Reproduction Steps
 - Update file paths in python files for census shape files, income data, and food inspection data
