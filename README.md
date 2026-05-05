@@ -17,7 +17,6 @@ Food Inspections data used in this analysis was downloaded on February 11th, 202
 - Poster used for research findings (LimK.PosterFINAL.pdf): Contains project results
 - Modelling and analyses (LimK.Project.R): Statistical modelling script
 - Data cleaning and visualization (LimK.Project.ipynb): Primary data preprocessing and visualization script
-- 
 
 ### Reproduction Steps
 - Update file paths in python files for census shape files, income data, and food inspection data
